@@ -1,0 +1,68 @@
+body {
+  background-color: #adebb3;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+}
+
+header h1 {
+  font-family: "Chelsea Market", system-ui;
+  font-size: 250%;
+  text-shadow: rgba(0, 0, 0, 0.674) 2px 2px 10px;
+}
+
+nav {
+  background-color: navy;
+  
+}
+
+nav ul {
+display: flex; 
+flex-wrap: wrap;
+justify-content: space-around;
+}
+
+nav li {
+  padding: 1rem;
+}
+
+nav a {
+  color: tan;
+  text-decoration: none;
+  padding: 1rem 1rem;
+  font-size: 110%;
+}
+
+nav a:hover {
+  background-color: white;
+  border-radius: 2rem;
+}
+
+.wrapper {
+margin: 0 auto;
+max-width: 960px;
+} 
+
+.legit {
+  margin: 100px auto;
+  width: 75%;
+}
+.side {
+  max-width: 300px;
+  float: right;
+}
+
+main h2 {
+  font-size: 120%;
+  text-decoration: underline;
+}
+
+main p {
+  font-size: 105%;
+}
+
+
+
