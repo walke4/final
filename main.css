@@ -64,5 +64,7 @@ main p {
   font-size: 105%;
 }
 
-
+img {
+  box-shadow: 5px 5px 10px black;
+}
 
