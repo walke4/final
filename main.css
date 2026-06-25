@@ -1,5 +1,5 @@
 body {
-  background-color: #adebb3;
+  background-color: #c4fccc;
   font-family: 'Times New Roman', Times, serif;
 }
 
@@ -16,13 +16,13 @@ header h1 {
 
 nav {
   background-color: navy;
-  
+
 }
 
 nav ul {
-display: flex; 
-flex-wrap: wrap;
-justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 nav li {
@@ -34,6 +34,7 @@ nav a {
   text-decoration: none;
   padding: 1rem 1rem;
   font-size: 110%;
+  font-weight: bold;
 }
 
 nav a:hover {
@@ -42,18 +43,10 @@ nav a:hover {
 }
 
 .wrapper {
-margin: 0 auto;
-max-width: 960px;
-} 
+  margin: 0 auto;
+  max-width: 960px;
+}
 
-.legit {
-  margin: 100px auto;
-  width: 75%;
-}
-.side {
-  max-width: 300px;
-  float: right;
-}
 
 main h2 {
   font-size: 120%;
@@ -67,4 +60,50 @@ main p {
 img {
   box-shadow: 5px 5px 10px black;
 }
+
+.legit {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.left-side {
+  flex: 1;
+}
+
+.left-side-2 {
+  flex: 1;
+}
+
+.right-side {
+  flex: 0 0 450px;
+}
+
+.right-side figcaption {
+  text-align: center;
+  margin-top: .3rem;
+}
+
+.right-side img {
+  width: 100%;
+  height: auto;
+}
+
+.notify figcaption{
+  text-align: left;
+  margin-top: .3rem;
+}
+
+.notify {
+  margin-bottom: 15px;
+}
+
+.denim figcaption {
+  margin-top: .3rem;
+}
+
+.denim {
+  margin-top: .5rem;
+}
+
 
